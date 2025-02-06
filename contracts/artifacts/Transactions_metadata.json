@@ -13,51 +13,44 @@
 			{
 				"inputs": [
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "subject_entity_id",
-								"type": "string"
-							},
-							{
-								"internalType": "enum Transactions.EntityType",
-								"name": "subject_entity_type",
-								"type": "uint8"
-							},
-							{
-								"internalType": "string",
-								"name": "action",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "context_entity_id",
-								"type": "string"
-							},
-							{
-								"internalType": "enum Transactions.EntityType",
-								"name": "context_entity_type",
-								"type": "uint8"
-							},
-							{
-								"internalType": "string",
-								"name": "tokens_involved",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "token_price_in_inr",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "created_at",
-								"type": "string"
-							}
-						],
-						"internalType": "struct Transactions.Transaction",
-						"name": "newTransaction",
-						"type": "tuple"
+						"internalType": "string",
+						"name": "_subject_entity_id",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Transactions.EntityType",
+						"name": "_subject_entity_type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_action",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_context_entity_id",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Transactions.EntityType",
+						"name": "_context_entity_type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "_tokens_involved",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_token_price_in_inr",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_created_at",
+						"type": "string"
 					}
 				],
 				"name": "addNewTransaction",
@@ -203,11 +196,11 @@
 	},
 	"sources": {
 		"contracts/Transactions.sol": {
-			"keccak256": "0x1b1a8f7f0676ff94bf4907d756bf40954c54fe35bfe4323cbe9154f11bac1f6c",
+			"keccak256": "0x5151c6f8ab61ee18b68f4944d591f533cde36ac7f0d818592248f51751b9547c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c5fa5ecd3a446af1afc45a6c17dbdef33121ec89f12300dca85678bc2e354a82",
-				"dweb:/ipfs/QmfX37i6qqNY9okDSMS9K4fTyEDi52D8gy8HR8X6DEkLeR"
+				"bzz-raw://b130421f78cb2d2d7041b9e26091e2ee9cd0a31223e5a601663d3d3c3fa66f8d",
+				"dweb:/ipfs/QmaKEDpa6QhYn6624z91e3dXD2kCGxKe4mfzX5SbhL1bdM"
 			]
 		}
 	},
