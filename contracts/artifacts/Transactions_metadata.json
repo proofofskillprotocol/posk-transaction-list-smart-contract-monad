@@ -1,0 +1,215 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "subject_entity_id",
+								"type": "string"
+							},
+							{
+								"internalType": "enum Transactions.EntityType",
+								"name": "subject_entity_type",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "action",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "context_entity_id",
+								"type": "string"
+							},
+							{
+								"internalType": "enum Transactions.EntityType",
+								"name": "context_entity_type",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "tokens_involved",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "token_price_in_inr",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "created_at",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Transactions.Transaction",
+						"name": "newTransaction",
+						"type": "tuple"
+					}
+				],
+				"name": "addNewTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllTransactions",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "subject_entity_id",
+								"type": "string"
+							},
+							{
+								"internalType": "enum Transactions.EntityType",
+								"name": "subject_entity_type",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "action",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "context_entity_id",
+								"type": "string"
+							},
+							{
+								"internalType": "enum Transactions.EntityType",
+								"name": "context_entity_type",
+								"type": "uint8"
+							},
+							{
+								"internalType": "string",
+								"name": "tokens_involved",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "token_price_in_inr",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "created_at",
+								"type": "string"
+							}
+						],
+						"internalType": "struct Transactions.Transaction[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactions",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "subject_entity_id",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Transactions.EntityType",
+						"name": "subject_entity_type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "action",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "context_entity_id",
+						"type": "string"
+					},
+					{
+						"internalType": "enum Transactions.EntityType",
+						"name": "context_entity_type",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "tokens_involved",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "token_price_in_inr",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "created_at",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Transactions.sol": "Transactions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Transactions.sol": {
+			"keccak256": "0x1b1a8f7f0676ff94bf4907d756bf40954c54fe35bfe4323cbe9154f11bac1f6c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c5fa5ecd3a446af1afc45a6c17dbdef33121ec89f12300dca85678bc2e354a82",
+				"dweb:/ipfs/QmfX37i6qqNY9okDSMS9K4fTyEDi52D8gy8HR8X6DEkLeR"
+			]
+		}
+	},
+	"version": 1
+}
